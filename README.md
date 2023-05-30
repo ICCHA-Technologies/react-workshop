@@ -17,11 +17,10 @@ Over the course of 12 days, we dive deep into various topics, dedicating each da
 
 ### Lesson 3
 * Understanding Component State and its importance.
-* Understanding React component lifecycle methods.
+* Understanding React component lifecycle.
 
 ### Lesson 4
 * How to handle user interactions through events.
-* The role of event handlers and binding 'this'.
 
 ### Lesson 5
 * Using JavaScript operators like 'if' and the conditional (ternary) operator to create elements representing the current state.

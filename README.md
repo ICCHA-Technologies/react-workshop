@@ -40,7 +40,6 @@ Over the course of 12 days, we dive deep into various topics, dedicating each da
 
 ### Lesson 9
 * Understanding hooks in React.
-* Introduction to useState and useEffect.
 * Custom hooks.
 
 ### Lesson 10

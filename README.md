@@ -56,13 +56,13 @@ Create a simple weather application that allows users to search for the current 
 #### Steps:
 1. Set up a new React project using Create React App.
 
-2. Install the required dependencies: react-router-dom, and any other libraries you may need.
+2. Install the required dependencies and any other libraries you may need.
 
 3. Design the layout of your application. Create a search bar component and a weather display component.
 
-4. Configure React Router to handle routing for the search page and the weather display page.
+4. Implement the UI components for the search page and the weather display page.
 
-5. Create a context using React Context to manage the weather data. Define a state variable to store the weather information.
+5. Define a state variable to store the weather information, we should auto load the last selected city on reload.
 
 6. Implement the search functionality:
 

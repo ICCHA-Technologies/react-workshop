@@ -60,24 +60,22 @@ Create a simple weather application that allows users to search for the current 
 
 3. Design the layout of your application. Create a search bar component and a weather display component.
 
-4. Implement the UI components for the search page and the weather display page.
+4. Define a state variable to store the weather information, we should auto load the last selected city on reload into this variable (use browser local storage).
 
-5. Define a state variable to store the weather information, we should auto load the last selected city on reload.
-
-6. Implement the search functionality:
+5. Implement the search functionality:
 
     a. Create a component for the search bar.
     b. Use the useState hook to manage the search query state.
     c. Handle user input changes (dropdown) and perform data fetching using the useEffect hook and fetch API.
     d. Update the weather data state with the fetched information.
 
-7. Implement the weather display:
+6. Implement the weather display:
 
     a. Create a component to display the weather information.
     b. Access the weather data from the states and display it in the component.
     c. Style your application using CSS or a UI library of your choice.
 
-8. Test your application to ensure that the search functionality and weather display work correctly.
+7. Test your application to ensure that the search functionality and weather display work correctly.
 
 **Note**: you can use the OpenWeatherMap API. OpenWeatherMap provides a free API that allows you to access current weather data for various locations around the world. Here's how you can use it in the project:
 

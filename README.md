@@ -47,7 +47,7 @@ Over the course of 12 days, we dive deep into various topics, dedicating each da
 * Setting up routing for our application.
 * Switch, Route, Link components.
 
-### Final Project Weather App (2 Days)
+### Final Project: Weather App (2 Days)
 
 Create a simple weather application that allows users to search for the current weather conditions of a particular city. The application will display the temperature, weather description, and other relevant information.
 

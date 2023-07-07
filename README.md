@@ -47,11 +47,54 @@ Over the course of 12 days, we dive deep into various topics, dedicating each da
 * Setting up routing for our application.
 * Switch, Route, Link components.
 
-### Lesson 11
-* Higher-Order Components (HOCs).
-* Render Props.
-* Compound Components.
+### Final Project Weather App (2 Days)
 
-### Lesson 12
-* Component composition, separation of concerns, DRY principles.
-* Testing in React with tools like Jest and React Testing Library.
+Create a simple weather application that allows users to search for the current weather conditions of a particular city. The application will display the temperature, weather description, and other relevant information.
+
+![Alt text](project.png)
+
+#### Steps:
+1. Set up a new React project using Create React App.
+
+2. Install the required dependencies: react-router-dom, and any other libraries you may need.
+
+3. Design the layout of your application. Create a search bar component and a weather display component.
+
+4. Configure React Router to handle routing for the search page and the weather display page.
+
+5. Create a context using React Context to manage the weather data. Define a state variable to store the weather information.
+
+6. Implement the search functionality:
+
+    a. Create a component for the search bar.
+    b. Use the useState hook to manage the search query state.
+    c. Handle user input changes (dropdown) and perform data fetching using the useEffect hook and fetch API.
+    d. Update the weather data state with the fetched information.
+
+7. Implement the weather display:
+
+    a. Create a component to display the weather information.
+    b. Access the weather data from the states and display it in the component.
+    c. Style your application using CSS or a UI library of your choice.
+
+8. Test your application to ensure that the search functionality and weather display work correctly.
+
+**Note**: you can use the OpenWeatherMap API. OpenWeatherMap provides a free API that allows you to access current weather data for various locations around the world. Here's how you can use it in the project:
+
+```js
+const apiKey = 'YOUR_API_KEY';
+const city = 'London'; // Replace with the desired city
+
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
+  .then(response => response.json())
+  .then(data => {
+    // Handle the response data
+    console.log(data);
+  })
+  .catch(error => {
+    // Handle any errors
+    console.error('Error fetching weather data:', error);
+  });
+
+```
+
